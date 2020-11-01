@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Template</title>
+    <link rel="stylesheet" href="front2.css">
+</head>
+  <body>
+<section>
+  <header>
+
+    <a href=""><img src="pepsi.png" alt=""  class="logo"></a>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">What's new</a></li>
+      <li><a href="#">Newsletter</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+
+  </header>
+  <div class="content">
+    <div class="textBox">
+      <h2>That's What<br><span>I like</span></h2>
+<p>PepsiCo, Inc. is committed to complying with U.S. copyright law and to respond to claims of copyright infringement. PepsiCo, Inc. will promptly process and investigate notices of alleged infringement and will take appropriate actions under the Digital Millennium Copyright Act, Title 17, United States Code, Section 512(c) ("DMCA").</p>
+<a href="#">View All Products</a>
+    </div>
+    <div class="imgBox">
+<img src="can-pepsi.png" alt="" class="pepsi">
+    </div>
+  </div>
+<ul class="thumb">
+  <li><a href="#"><img src="can-pepsi.png" onclick="imgSlider('can-pepsi.png')"></a></li>
+  <li><a href="#"><img src="Diet-Pepsi-v2_12oz.png" onclick="imgSlider('Diet-Pepsi-v2_12oz.png')" ></a></li>
+  <li><a href="#"><img src="can-pepsi-zero-sugar.png" onclick="imgSlider('can-pepsi-zero-sugar.png')" ></a></li>
+  <li><img src="" alt=""></li>
+  <li><img src="" alt=""></li>
+  <li><img src="" alt=""></li>
+</ul>
+<ul class="sci">
+  <li><img src="" alt=""></li>
+  <li><img src="" alt=""></li>
+  <li><img src="" alt=""></li>
+</ul>
+
+</section>
+
+
+
+<script type="text/javascript">
+  function imgSlider(anything){
+    document.querySelector('.pepsi').src = anything;
+  }
+
+
+</script>
+
+
+  </body>
+</html>
